@@ -1,0 +1,7 @@
+{
+  "galaxy": {
+    "sqlDatabase": {
+      "connectionString": "Data Source=localhost; TrustServerCertificate=true; Initial Catalog=TutorialDB; User Id=SA; Password=Hoian231987#"
+    }
+  }
+}
