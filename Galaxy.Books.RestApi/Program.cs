@@ -1,4 +1,6 @@
 using Galaxy.Books.DataLayer;
+using Galaxy.Books.Services;
+using Galaxy.Books.Services.Repositories;
 using Galaxy.Logging;
 using Galaxy.Monitoring;
 using Galaxy.Monitoring.Extensions;
@@ -23,6 +25,8 @@ builder.Services.AddDbContext<BooksDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetSection("galaxy").GetSection("sqlDatabase")["connectionString"]);
 });
+builder.Services.AddScoped<IBookInfoRepository, BookInfoRepository>();
+builder.Services.AddScoped<IBookInfoService, BookInfoService>();
 
 var app = builder.Build();
 

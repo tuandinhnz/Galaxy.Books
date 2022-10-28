@@ -20,6 +20,7 @@
       <ProjectReference Include="..\..\Galaxy.Core\Galaxy.Monitoring\Galaxy.Monitoring.csproj" />
       <ProjectReference Include="..\..\Galaxy.Core\Galaxy.Settings\Galaxy.Settings.csproj" />
       <ProjectReference Include="..\Galaxy.Books.DataLayer\Galaxy.Books.DataLayer.csproj" />
+      <ProjectReference Include="..\Galaxy.Books.Services\Galaxy.Books.Services.csproj" />
     </ItemGroup>
 
 </Project>

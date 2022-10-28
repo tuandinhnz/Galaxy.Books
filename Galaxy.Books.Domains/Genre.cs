@@ -11,6 +11,7 @@ namespace Galaxy.Books.Domains
         Horror,
         Humor,
         Mystery,
-        ShortStory
+        ShortStory,
+        Programming
     }
 }

@@ -6,9 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\Galaxy.Books.DataLayer\Galaxy.Books.DataLayer.csproj" />
-      <ProjectReference Include="..\Galaxy.Books.Domains\Galaxy.Books.Domains.csproj" />
-    </ItemGroup>
-
 </Project>
